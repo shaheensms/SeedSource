@@ -17,11 +17,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
+            <com.mapbox.mapboxsdk.maps.MapView
+                android:id="@+id/mapView"
                 android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/map"/>
+                android:layout_height="256dp" />
+
 
 
             <LinearLayout
